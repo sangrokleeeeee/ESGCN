@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python main.py --dataset pems03 --horizon 12 --window_size 12 --norm_method z_score --step_type multi --step_cl -1 --optimizer adam
